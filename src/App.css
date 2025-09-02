@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.APP{
+    display: flex;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+@media screen and (max-width: 768px) {
+    .APP {
+        flex-direction: column;
+    }
+}

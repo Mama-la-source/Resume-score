@@ -23,3 +23,12 @@
     padding: 20px;
     box-sizing: border-box;
 }
+@media screen and (max-width:780px) {
+    .Admin{
+        padding: 20px;
+    }
+    .AdminBlock {
+        
+        grid-template-columns: 1fr ;
+    }
+}
